@@ -1,0 +1,17 @@
+application.type=widget
+application.code=certidao_negativas
+application.title=Certidao Negaticas
+application.description=Sistema de notificação de certidão negativas
+application.category=SYSTEM
+application.renderer=freemarker
+developer.code=BASDDKTIC-12
+developer.name=lucas.neves
+developer.url=http://www.fluig.com
+application.uiwidget=true
+application.mobileapp=false
+application.version=${build.version}-${build.revision}
+view.file=view.ftl
+edit.file=edit.ftl
+locale.file.base.name=certidao_negativas
+application.resource.js.1=/resources/js/certidao_negativas.js
+application.resource.css.2=/resources/css/certidao_negativas.css
