@@ -54,6 +54,34 @@
         color: #E53E3E;
     }
 
+    .text-nowrap.my-alert {
+       color: #ECC94B
+    }
+
+    small {
+        position: absolute;
+        right: 9px;
+        top: 9px;
+        font-weight: 500;
+        display: flex;
+        align-items: flex-end;
+
+    }
+
+ 
+    small i {
+        font-size: 1.5rem;
+        margin-left: 6px;
+    }
+
+    small.my-alert i {
+        font-size: 1.3rem;
+    }
+
+    .certidao {
+        position: relative;
+    }
+
     
 </style>
 
@@ -74,34 +102,40 @@
                 </div>
             </div>
             <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                    <i class="bi bi-file-earmark-pdf"></i>
+                <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 certidao" aria-current="true">
+                    <i  class="bi bi-file-earmark-pdf"></i>
                     <div class="d-flex gap-2 w-100 justify-content-between">
                         <div>
                             <h6 class="mb-0">Certidão Trabalhista</h6>
                             <p class="mb-0 opacity-75">Descrição da certidão da SACA</p>
                         </div>
-                        <small id="data-vencimento" class="text-nowrap">06/06/2022</small>
+                        <small id="data-vencimento" class="text-nowrap">
+                            06/06/2022
+                        </small>
                     </div>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 certidao" aria-current="true">
                     <i class="bi bi-file-earmark-pdf"></i>
                     <div class="d-flex gap-2 w-100 justify-content-between">
                         <div>
                             <h6 class="mb-0">Certidão Negativa n°999</h6>
                             <p class="mb-0 opacity-75">Descrição Descrição</p>
                         </div>
-                        <small id="data-vencimento" class="text-nowrap">12/12/2022</small>
+                        <small id="data-vencimento" class="text-nowrap my-alert">
+                            12/12/2022
+                        </small>
                     </div>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3 certidao" aria-current="true">
                     <i class="bi bi-file-earmark-pdf"></i>
                     <div class="d-flex gap-2 w-100 justify-content-between">
                         <div>
                             <h6 class="mb-0">Certidão n° 218</h6>
                             <p class="mb-0 opacity-75">Alguma descrição Alguma descrição Alguma descrição Alguma...</p>
                         </div>
-                        <small id="data-vencimento" class="text-nowrap error">01/01/2022</small>
+                        <small id="data-vencimento" class="text-nowrap error">
+                            01/01/2022
+                        </small>
                     </div>
                 </a>
             </div>
